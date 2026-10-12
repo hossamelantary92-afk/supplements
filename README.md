@@ -38,3 +38,23 @@ The editor provides optional section suggestions (Overview, Mechanism of Action,
 
 ## Important
 The source package is ready for cloud integration, but the cloud project is **not created or deployed** until you perform the setup steps in your own Supabase/hosting accounts.
+
+
+## Scientific content template (v2)
+
+New supplements automatically start with these 12 editable sections:
+
+1. Overview & Identity
+2. Forms & Bioavailability
+3. Mechanism of Action
+4. Clinical Uses & Evidence
+5. Dosage & Administration
+6. Deficiency & Assessment
+7. Safety, Contraindications & Toxicity
+8. Drug & Supplement Interactions
+9. Special Populations
+10. Monitoring & Follow-up
+11. Clinical Pearls
+12. Scientific References
+
+Existing supplements keep their saved sections unchanged. Administrators can rename, remove, or add sections. The sections are stored in the existing `supplements.sections` JSON field, so no SQL migration is needed. To publish the change, replace `app.js` in the GitHub repository and let Vercel redeploy.
