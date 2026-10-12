@@ -1,4 +1,4 @@
-# Supplements Unlocked
+# Supplements Atlas
 
 A responsive, dark-first supplement reference site, with a public read-only library and private admin editing. Built with HTML, CSS, vanilla JavaScript, and Supabase. Starts with **zero supplements and zero categories**.
 
