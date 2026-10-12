@@ -58,3 +58,7 @@ New supplements automatically start with these 12 editable sections:
 12. Scientific References
 
 Existing supplements keep their saved sections unchanged. Administrators can rename, remove, or add sections. The sections are stored in the existing `supplements.sections` JSON field, so no SQL migration is needed. To publish the change, replace `app.js` in the GitHub repository and let Vercel redeploy.
+
+
+### Image display update
+The detail image now retains its natural aspect ratio, with no height cap or cropping. Card thumbnails use `object-fit: contain` so all artwork is visible. Only `styles.css` needs uploading to an existing deployment.
