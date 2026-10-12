@@ -21,3 +21,13 @@
 /* v2: preserve the complete image at all viewport sizes */
 .page img.detail-image {display:block!important;width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center!important;}
 .supp-card .card-art img {object-fit:contain!important;object-position:center!important;}
+
+/* Supplements Atlas — Full Image Display Fix */
+
+.detail-image {
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  display: block;
+}
